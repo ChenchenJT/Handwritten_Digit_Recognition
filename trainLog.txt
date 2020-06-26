@@ -1,0 +1,13 @@
+1.	newff(pr,[128,32,1],{'logsig' 'tansig' 'purelin'},'traingdx','learngdm');
+	0.4288
+2.	net=newff(pr,[1024,128,1],{'logsig' 'tansig' 'purelin'},'traingdx','learngdm');
+    0.4010
+3.  net=newff(pr,[128,32,1],{'logsig' 'logsig' 'purelin'},'traingdx','learngdm');
+    0.5608
+4.  net=newff(pr,[128,64,1],{'logsig' 'logsig' 'purelin'},'traingdx','learngdm');
+    0.5484
+5.  net=newff(pr,[128,32,1],{'logsig' 'logsig' 'purelin'},'traingdx','learngdm');
+    0.9740
+6. net=newff(pr,[128,10,1],{'logsig' 'logsig' 'purelin'},'traingdx','learngdm');
+    1
+7. 50,1 96.9%
